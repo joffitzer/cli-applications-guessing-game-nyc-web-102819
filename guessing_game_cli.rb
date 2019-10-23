@@ -2,8 +2,10 @@ def generate_random_number
   rand(6) + 1
 end 
 
-def prompt_user
-  puts "Guess a number between 1 and 6"
+def gets_user_input
+  user_input = gets 
+  if user_input == "exit"
+    puts "Goodbye!"
 end 
 
 
