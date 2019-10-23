@@ -15,5 +15,5 @@ end
 
 
 def run_guessing_game
-  
+  generate_random_number
 end
