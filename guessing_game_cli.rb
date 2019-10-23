@@ -6,6 +6,7 @@ def gets_user_input
   user_input = gets 
   if user_input == "exit"
     puts "Goodbye!"
+  end 
 end 
 
 
