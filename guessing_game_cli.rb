@@ -21,4 +21,5 @@ end
 
 def run_guessing_game
   generate_random_number
+  gets_user_input
 end
