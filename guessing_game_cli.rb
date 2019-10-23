@@ -1,11 +1,15 @@
-def generate_random_number
-  rand(6) + 1
-end 
+#def generate_random_number
+ # rand(6) + 1
+#end 
 
-def gets_user_input
+def run_guessing_game
+  random_number = rand(6) + 1 
   user_input = gets 
   if user_input == "exit"
     puts "Goodbye!"
+  end 
+  if user_input != random_number
+    puts "Sorry! The computer guessed #{random_number}."
   end 
 end 
 
@@ -19,7 +23,7 @@ end
 
 
 
-def run_guessing_game
-  generate_random_number
-  gets_user_input
-end
+#def run_guessing_game
+ # random_number = generate_random_number
+ # gets_user_input
+#end
