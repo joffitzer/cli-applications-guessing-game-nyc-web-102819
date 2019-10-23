@@ -1,7 +1,3 @@
-#def generate_random_number
- # rand(6) + 1
-#end 
-
 def run_guessing_game
   random_number = rand(6) + 1 
   user_input = gets 
@@ -15,18 +11,3 @@ def run_guessing_game
     puts "You guessed the correct number!"
   end 
 end 
-
-
-
-
-
-
-
-
-
-
-
-#def run_guessing_game
- # random_number = generate_random_number
- # gets_user_input
-#end
